@@ -1,11 +1,11 @@
-﻿<Properties StartupConfiguration="{8A7090B0-4630-4822-A68A-6091D81015AB}|Default">
-  <MonoDevelop.Ide.ItemProperties.DecoratorDP PreferredExecutionTarget="MonoDevelop.Default" />
+﻿<Properties StartupConfiguration="{F6A9C578-3704-4558-BA95-5E62AC496F9C}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="14" Column="1" />
+      <File FileName="Program.cs" Line="3" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.FactoryMethodDP PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
