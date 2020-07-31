@@ -19,12 +19,12 @@ namespace FactoryMethodDP
         }
     }
 
-    public interface IDAL
+    public interface IDAL //Product
     {
         string GetConnectionString();
     }
 
-    public class SQLDAL : IDAL
+    public class SQLDAL : IDAL //Concrete Product
     {
         public string GetConnectionString()
         {
@@ -32,7 +32,7 @@ namespace FactoryMethodDP
         }
     }
 
-    public class OracleDAL : IDAL
+    public class OracleDAL : IDAL //Concrete Product
     {
         public string GetConnectionString()
         {
@@ -40,12 +40,12 @@ namespace FactoryMethodDP
         }
     }
 
-    public interface IDALFactory
+    public interface IDALFactory //Creator
     {
         IDAL CreateDALObject();
     }
 
-    public class SQLDALFactory : IDALFactory
+    public class SQLDALFactory : IDALFactory //Concrete Creator
     {
         public IDAL CreateDALObject()
         {
@@ -53,7 +53,7 @@ namespace FactoryMethodDP
         }
     }
 
-    public class OracleDALFactory : IDALFactory
+    public class OracleDALFactory : IDALFactory //Concrete Creator
     {
         public IDAL CreateDALObject()
         {
